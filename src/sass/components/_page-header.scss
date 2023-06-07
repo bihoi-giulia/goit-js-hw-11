@@ -1,0 +1,14 @@
+.header__section {
+  background-image: var(--background-color);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 10px 0;
+  @include center;
+  z-index: 99;
+}
+@media (min-width: 1200px) {
+  .header-section {
+    padding: 10px 0 20px 0;
+  }
+}
