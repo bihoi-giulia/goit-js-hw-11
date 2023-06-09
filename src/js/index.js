@@ -1,5 +1,5 @@
 import Notiflix from 'notiflix';
-import { fetchImg } from './fetchImg';
+import { fetchImg } from './fetchlmg';
 import { handleResponse, clearGallery } from './handleResponse';
 import toggleLoadMoreButton from './load';
 
